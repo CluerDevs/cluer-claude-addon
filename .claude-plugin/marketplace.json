@@ -1,0 +1,13 @@
+{
+  "name": "cluer-claude",
+  "owner": { "name": "Darren Courtney" },
+  "metadata": { "description": "Cluer team's standard Claude Code add-ons", "version": "1.0.0" },
+  "plugins": [
+    { "name": "cluer-output-style", "source": "./plugins/cluer-output-style", "description": "Always-on output style (adapted i-have-adhd)" },
+    { "name": "ponytail", "source": { "source": "github", "repo": "DietrichGebert/ponytail" }, "description": "Write less code, like a lazy senior dev" },
+    { "name": "andrej-karpathy-skills", "source": { "source": "github", "repo": "forrestchang/andrej-karpathy-skills" }, "description": "Think first, simplicity, surgical changes" },
+    { "name": "superpowers", "source": { "source": "github", "repo": "obra/superpowers" }, "description": "TDD, debugging, planning skills" },
+    { "name": "example-skills", "source": { "source": "github", "repo": "anthropics/skills" }, "strict": false, "description": "Anthropic example skills",
+      "skills": ["./skills/algorithmic-art","./skills/brand-guidelines","./skills/canvas-design","./skills/doc-coauthoring","./skills/frontend-design","./skills/internal-comms","./skills/mcp-builder","./skills/skill-creator","./skills/slack-gif-creator","./skills/theme-factory","./skills/web-artifacts-builder","./skills/webapp-testing"] }
+  ]
+}
